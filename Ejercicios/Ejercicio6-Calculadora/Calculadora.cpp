@@ -28,10 +28,10 @@ int main(int argc, char const *argv[])
     ResultDivi = A / B;
 
     //Datos De Salida
-    cout  << "La Suma Del Primer Numero y El Segundo Numero Es:" <<ResultSuma <<endl;
-    cout  << "La Resta Del Primer Numero y El Segundo Numero Es:" <<ResultResta <<endl;
-    cout  << "La Multiplicación Del Primer Numero y El Segundo Numero Es:" <<ResultMulti <<endl;
-    cout  << "La División Del Primer Numero y El Segundo Numero Es:" <<ResultDivi <<endl;
+    cout  << "La Suma Del Primer Numero y El Segundo Numero Es: " <<ResultSuma <<endl;
+    cout  << "La Resta Del Primer Numero y El Segundo Numero Es: " <<ResultResta <<endl;
+    cout  << "La Multiplicacion Del Primer Numero y El Segundo Numero Es: " <<ResultMulti <<endl;
+    cout  << "La Division Del Primer Numero y El Segundo Numero Es: " <<ResultDivi <<endl;
 
     return 0;
 }
