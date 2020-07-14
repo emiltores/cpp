@@ -28,74 +28,74 @@ int main(int argc, char const *argv[])
     				}else {
 						if (nota >= 75 && nota <=79) {
      					   cout << "Obtuviste una B";
-    				}else {
-						if (nota >= 70 && nota <= 74) {
-					        cout << "Obtuviste una B-";
     					}else {
-							if (nota >= 65 && nota <= 69) {
-					        	cout << "Obtuviste una C+";
+							if (nota >= 70 && nota <= 74) {
+					   		     cout << "Obtuviste una B-";
     						}else {
-								if (nota >= 60 && nota <= 64) {
-					        		cout << "Obtuviste una C";
-								}else {
-									if (nota >= 55 && nota <= 59) {
-					        			cout << "Obtuviste una C-";
+								if (nota >= 65 && nota <= 69) {
+					    	    	cout << "Obtuviste una C+";
+    							}else {
+									if (nota >= 60 && nota <= 64) {
+					        			cout << "Obtuviste una C";
 									}else {
-										if (nota >= 50 && nota <= 54) {
-					        				cout << "Obtuviste una D+";
+										if (nota >= 55 && nota <= 59) {
+					        				cout << "Obtuviste una C-";
 										}else {
-											if (nota >= 45 && nota <= 49) {
-					        					cout << "Obtuviste una D";
+											if (nota >= 50 && nota <= 54) {
+						        				cout << "Obtuviste una D+";
 											}else {
-												if (nota >= 40 && nota <= 44) {
-					        						cout << "Obtuviste una D-";
+												if (nota >= 45 && nota <= 49) {
+					        						cout << "Obtuviste una D";
 												}else {
-													if (nota >= 35 && nota <= 39) {
-					        							cout << "Obtuviste una E+";
+													if (nota >= 40 && nota <= 44) {
+					        							cout << "Obtuviste una D-";
 													}else {
-														if (nota >= 30 && nota <= 34) {
-					        								cout << "Obtuviste una E";
+														if (nota >= 35 && nota <= 39) {
+						        							cout << "Obtuviste una E+";
 														}else {
-															if (nota >= 25 && nota <= 29) {
-					        									cout << "Obtuviste una E-";
+															if (nota >= 30 && nota <= 34) {
+					    	    								cout << "Obtuviste una E";
 															}else {
-																if (nota >= 20 && nota <= 24) {
-					        										cout << "Obtuviste una F+";
+																if (nota >= 25 && nota <= 29) {
+					        										cout << "Obtuviste una E-";
 																}else {
-																	if (nota >= 15 && nota <= 19) {
-					        											cout << "Obtuviste una F";
+																	if (nota >= 20 && nota <= 24) {
+					        											cout << "Obtuviste una F+";
 																	}else {
-																		if (nota >= 10 && nota <= 14) {
-					        		    									cout << "Obtuviste una F";
+																		if (nota >= 15 && nota <= 19) {
+					        												cout << "Obtuviste una F";
 																		}else {
-																			if (nota >= 5 && nota <= 9) {
-					        													cout << "Obtuviste una F-";
+																			if (nota >= 10 && nota <= 14) {
+					        		    										cout << "Obtuviste una F";
 																			}else {
-																				if (nota >= 0 && nota <= 4) {
-					        														cout << "Obtuviste una F--";
+																				if (nota >= 5 && nota <= 9) {
+					        														cout << "Obtuviste una F-";
 																				}else {
-																					if (nota >100 || nota < 0) {
-					        															cout << "Error!, Por favor ingrese una nota entre 0-100";
+																					if (nota >= 0 && nota <= 4) {
+					        															cout << "Obtuviste una F--";
+																					}else {
+																						if (nota >100 || nota < 0) {
+					        																cout << "Error!, Por favor ingrese una nota entre 0-100";
+																						}
 																					}
 																				}
 																			}
 																		}
 																	}
 																}
-															}
-														} 
+															} 
+														}
 													}
 												}
 											}
-										}
-									} 
-								}	
+										} 
+									}	
+								}
 							}
-						}
-					}		
-				}
-			}	
-		}
-	}									
+						}		
+					}
+				}	
+			}
+		}									
     return 0;
 }
