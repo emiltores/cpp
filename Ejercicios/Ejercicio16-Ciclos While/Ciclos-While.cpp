@@ -9,8 +9,11 @@ int main(int argc, char const *argv[])
 
     while (a > b)
     {
-        cout << "Ciclos" << endl;
+        cout << "Ingrese el Valor de A: " << endl;
+        cin >> a;
     }
-    
+    cout <<endl;
+    cout << "Saliste del ciclo";
+
     return 0;
 }
