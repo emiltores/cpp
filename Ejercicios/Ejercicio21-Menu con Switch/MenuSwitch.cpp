@@ -50,5 +50,8 @@ int main(int argc, char const *argv[])
                 }
         }
     }     
+    cout << endl;
+    cout << "saliste del sistema";
+    
     return 0;
 }
