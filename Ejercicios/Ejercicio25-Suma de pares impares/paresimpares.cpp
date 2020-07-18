@@ -7,8 +7,23 @@ int main(int argc, char const *argv[])
     int pares = 0;
     int impares =0;
     int totales = 0;
+    int numero = 0;
+    
+	cout << "Por Favor ingrese un numero positivo: ";
+	cin>> numero;
+	
+	cout << endl;
+	cout << endl;
+	
+	while (numero < 0)
+    {
+        cout << "Error!, Por favor ingrese un numero positivo"<< endl;
+        cin>> numero;
+    }
+    cout << endl;
+    cout << endl;
 
-    for (int i = 0; i < 10; i++)
+    for (int i = 0; i <= numero; i++)
     {
         if (i % 2 == 0)
         {
@@ -26,9 +41,9 @@ int main(int argc, char const *argv[])
     totales = (pares + impares);
     cout << endl;
     cout << endl;
-    cout << "Total pares" << pares;
-    cout << "Total impares" << impares;
-    cout << "Total" << totales;
+    cout << "Total pares: " << pares << endl;
+    cout << "Total impares: " << impares << endl;
+    cout << "Total: " << totales;
 
 
 
