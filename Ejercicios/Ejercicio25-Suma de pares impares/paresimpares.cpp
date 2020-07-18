@@ -12,12 +12,9 @@ int main(int argc, char const *argv[])
 	cout << "Por Favor ingrese un numero positivo: ";
 	cin>> numero;
 	
-	cout << endl;
-	cout << endl;
-	
 	while (numero < 0)
     {
-        cout << "Error!, Por favor ingrese un numero positivo"<< endl;
+        cout << "Error!, Por favor ingrese un numero positivo";
         cin>> numero;
     }
     cout << endl;
