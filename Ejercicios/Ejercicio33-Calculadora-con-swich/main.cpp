@@ -17,7 +17,12 @@ int multiplicar(int a, int b)
 }
 int dividir(int a, int b)
 {
-    return a + b;
+    if (b == 0)
+    {
+        throw "No se Puede Dividir Entre 0";
+    }
+    
+    return a / b;
 }
 int calculadora(int a, int b, char operador)
 {
