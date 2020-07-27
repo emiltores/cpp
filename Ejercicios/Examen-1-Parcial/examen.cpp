@@ -64,7 +64,7 @@ int main() {
     }else {
         if (contrasena == "neo" || contrasena == "Neo" || contrasena == "NEO")
         {
-              system("COLOR 04");
+            system ("COLOR 04");
             for (int w = 1; w <= 10; w++)
             {
         char caRow[80];
@@ -107,18 +107,18 @@ int main() {
 					 cout << endl;
 					 cout << "* EL SISTEMA FALLO *";
             
+             while (contrasena != "neo" && contrasena != "smith")
+    
+             {
+                    cout << endl;
+                    cout << "acceso a la matrix denegado";
+                    cout << endl;
+                    break;
+             }
+    
         }
         
     }
-    
-        {
-            cout << endl;
-            cout << "acceso a la matrix denegado";
-            cout << endl;
-        }
-    
-    
-    
-    
+   
     return 0;
 }
