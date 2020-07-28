@@ -29,7 +29,8 @@ void imprimirFactura()
 
     cout << endl;
     cout << "Subtotal: " << subtotal << endl << endl;
-    cout << "El Total a Pagar con el Impuesto es: " << totalApagar;
+    cout << "Total Impuesto (15%): " << impuesto << endl << endl;
+    cout << "Total Factura: " << totalApagar;
 
     
     cout << endl;
