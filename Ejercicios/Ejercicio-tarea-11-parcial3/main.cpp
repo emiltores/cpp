@@ -20,7 +20,7 @@ int main(int argc, char const *argv[])
         for (int j = 0; j < 5; j++)
         {
             
-            arreglo[i][j] = rand() %  1 + 1;
+            arreglo[i][j] = rand() %  1000 + 1;
             cout << "\t";
             cout << arreglo[i][j] << " ";
             
