@@ -30,7 +30,7 @@ int main(int argc, char const *argv[])
     } 
     cout << endl;
 
-    cout << "\tLa suma del Arreglo es: " << sumaArreglo << endl << endl ;
+    cout << "\tTotal Suma: " << sumaArreglo << endl << endl ;
 
     return 0;
 }
