@@ -11,7 +11,18 @@ using namespace std;
         bool ingresar = false;
      do
      {
-        system("cls");
+       system("cls");
+        cout << " ______________________________________________________________________________________"  << endl;
+        cout << "/   .______. ._     __ ._      _.  .__.        .____. ._        .__. ._______. .______  \\" << endl;
+        cout << "|  /  _____|  \\\\   / / | \\    / | |  |        /  __ \\\\ \\ \\      / /  |   ____| |   _  \\ |" << endl;
+        cout << "| |  |  __     \\\\ / /  |  \\  /  | |  |       |  |  | |  \\ \\    / /   |  |__    |  |_) | |" << endl;
+        cout << "| |  | |_ |     \\\\ /   |  |\\/|  | |  |       |  |  | |   \\ \\  / /    |   __|   |      / |" << endl;
+        cout << "| |  |__| |     / /    |  |  |  | |  |_____. |  |__| |    \\ \\/ /     |  |____  |  |\\ \\  |" << endl;
+        cout << "| \\\\______|    /_/     |__|  |__| |________|  \\_____/      \\_\\/      |_______| |__| \\_\\ |" << endl;
+        cout << "\\_______________________________________________________________________________________/ ";
+        cout <<endl;
+        cout <<endl;
+
         cout << "\t\tLOGIN DE USUARIO" << endl;
         cout << "\t\t****************" << endl;
         cout << "\n\tUsuario: ";
@@ -29,7 +40,7 @@ using namespace std;
         oportunidades--;
         system("pause");
      }
-     }while ( ingresar == false && intentos < 4);
+     }while ( ingresar == false && intentos <= 3);
       if (ingresar == false)
       {
           cout << "\n\tUSUARIO BLOQUEADO!" << endl;
