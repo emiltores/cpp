@@ -77,7 +77,7 @@ void cargarLibros() {
     libros[16][2] = "Mark Zuckerberg";
 
 	libros[17][0] = "Metodologias de desarrollo de software"; 
-    libros[17][1] = "Scrum y XP desde las trincheras"; 
+    libros[17][1] = "Programacion en Visual Basic"; 
     libros[17][2] = "Bill Gates";
 
 	libros[18][0] = "Miscelaneos"; 
