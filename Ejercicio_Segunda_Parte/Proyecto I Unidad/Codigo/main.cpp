@@ -3,15 +3,17 @@
 #include "snake.h"
 
 
+
 using namespace std;
 
 int main(int argc, char const *argv[])
 {
     
-    int opcion = 0;
 
     while (true)
     {
+        int opcion = 0;
+
         system("cls");
         
         cout << "Bienvenido a" << endl;
@@ -35,14 +37,16 @@ int main(int argc, char const *argv[])
         cout << endl;
         cout << endl;
 
-
+        cout << "0 - Salir" << endl;
         cout << "1 - StartShip" << endl;
         cout << "2 - Snake" << endl;
-        cout << "3 - Packman" << endl;
+        
 
 
         cout << endl;
         cout << "Ingrese un numero del menu para seleccionar el juego: ";
+        cout << endl;
+        cout << endl;
 
         cin >> opcion;
 
@@ -58,11 +62,35 @@ int main(int argc, char const *argv[])
                 snake();
                 break;
 
-            case 0:
-                system("cls");
-                break;    
+            default:
+            cout << "Error! Ingrese una opcion valida entre 0-2: " ;
+            cin >> opcion;
 
+            if (opcion == 1)
+            {
+                system ("cls");
+                starShip();
+                break;
+            }else
+            {
+                if (opcion == 2)
+                {
+                    system("cls");
+                    snake();
+                    break;
+                } else
+                {
+                    if (opcion == 0)
+                    {
+                        break;
+                    }
+                    
+                }
+                
+                
             }
+            
+        return 0;
+    }
 }
-    return 0;
 }
