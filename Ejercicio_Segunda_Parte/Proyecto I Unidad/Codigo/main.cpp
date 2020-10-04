@@ -50,22 +50,6 @@ int main(int argc, char const *argv[])
 
         cin >> opcion;
 
-       switch (opcion)
-            {
-            case 1:
-                system("cls");
-                starShip();
-                break;
-                
-            case 2:
-                system("cls");
-                snake();
-                break;
-
-            default:
-            cout << "Error! Ingrese una opcion valida entre 0-2: " ;
-            cin >> opcion;
-
             if (opcion == 1)
             {
                 system ("cls");
@@ -83,14 +67,17 @@ int main(int argc, char const *argv[])
                     if (opcion == 0)
                     {
                         break;
+                    }else
+                    {
+                        cout << "Error! Ingrese una opcion valida entre 0-2: " ;
+                        cin >> opcion;
                     }
+                    
                     
                 }
                 
                 
             }
-            
-        return 0;
-    }
-}
+        }
+    return 0;
 }
